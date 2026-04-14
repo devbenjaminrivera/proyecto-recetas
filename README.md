@@ -17,11 +17,11 @@ Este proyecto ha sido desarrollado siguiendo los estándares de Laravel para un 
 4. **Levantar el servidor:** `php artisan serve`
 
 ### Evidencias de Funcionamiento
-![Catalogo Principal](img\evidencia-catalogo.png)
-![Busqueda y Filtro](img\evidencia-filtro.png)
-![Detalle Receta](img\evidencia-detalle.png)
-![Validación de Error](img\evidencia-error.png)
-![Carpetas VS Code](img\evidencia-arbol.png)
+![CatalogoPrincipal](img\evidencia-catalogo.png)
+![BusquedayFiltro](img\evidencia-filtro.png)
+![DetalleReceta](img\evidencia-detalle.png)
+![ValidacióndeError](img\evidencia-error.png)
+![CarpetasVSCode](img\evidencia-arbol.png)
 ---
 
 ## III. Tabla de Rutas (Nivel 2)
