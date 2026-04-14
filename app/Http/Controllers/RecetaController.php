@@ -129,12 +129,12 @@ class RecetaController extends Controller
         return view('recetas.index', compact('recetas'));
     }
 
-    // Nivel 4: Mostrar el formulario de creación 
+    // Mostrar el formulario de creación 
     public function create() {
         return view('recetas.create');
     }
 
-    // Nivel 4: Recibir datos y simular guardado con validación 
+    // Recibir datos y simular guardado con validación 
     public function store(Request $request) {
         $request->validate([
             'nombre' => 'required|min:3',

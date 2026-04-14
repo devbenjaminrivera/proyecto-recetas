@@ -18,15 +18,15 @@
                 <p class="text-muted small mb-4">Completa los campos para simular el ingreso de una nueva delicia al sistema.</p>
 
                 <form action="{{ route('recetas.store') }}" method="POST">
-                    @csrf {{-- Token de seguridad obligatorio [cite: 549, 640] --}}
+                    @csrf {{-- Token de seguridad obligatorio --}}
 
                     <div class="mb-3">
                         <label class="form-label fw-semibold">Nombre de la Receta</label>
                         <input type="text" name="nombre" 
                                class="form-control form-control-lg bg-light border-0 @error('nombre') is-invalid @enderror" 
                                placeholder="Ej: Pastel de Jaiba" 
-                               [cite_start]value="{{ old('nombre') }}"> {{-- Conserva el dato si hay error [cite: 552, 648] --}}
-                        @error('nombre') {{-- Muestra error de validación [cite: 551, 646] --}}
+                               [cite_start]value="{{ old('nombre') }}"> {{-- Conserva el dato si hay error  --}}
+                        @error('nombre') {{-- Muestra error de validación  --}}
                             <div class="invalid-feedback">{{ $message }}</div>
                         @enderror
                     </div>

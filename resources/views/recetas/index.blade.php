@@ -29,7 +29,7 @@
 
     <div class="row row-cols-1 row-cols-md-3 g-4">
         @forelse($recetas as $receta)
-            @include('partials.tarjeta', ['receta' => $receta]) {{-- Reutilizamos el parcial [cite: 606] --}}
+            @include('partials.tarjeta', ['receta' => $receta]) {{-- Reutilizamos el parcial --}}
         @empty
             <div class="col-12 text-center py-5">
                 <p class="text-muted fs-4">No encontramos recetas con esos criterios.</p>

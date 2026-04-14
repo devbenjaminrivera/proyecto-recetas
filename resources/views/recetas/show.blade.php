@@ -33,7 +33,7 @@
             </div>
             <div class="col-md-8">
                 <h4 class="fw-bold mb-3">Preparación</h4>
-                {{-- REQUISITO: Uso de $loop->iteration [cite: 593] --}}
+                {{-- REQUISITO: Uso de $loop->iteration  --}}
                 @foreach($receta['pasos'] as $paso)
                     <div class="d-flex mb-3">
                         <div class="me-3">
