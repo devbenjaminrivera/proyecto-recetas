@@ -1,9 +1,8 @@
-# Sistema de Gestión de Recetas de Cocina - Evaluación N°2
+# Sistema de Gestión de Recetas de Cocina - Evaluación N°1
 
 ## I. Identificación
 * **Estudiante:** Benjamín Felipe Rivera Araneda
 * **Asignatura:** Desarrollo Web con Laravel
-* **Docente:** [Nombre de tu docente]
 * **Institución:** Universidad Adventista de Chile (UnACh)
 * **Año:** 2026
 
